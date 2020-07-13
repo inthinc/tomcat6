@@ -1,6 +1,7 @@
 source /etc/profile
 
-declare -x JAVA_HOME="/usr"
+#declare -x JAVA_HOME="/usr"
+declare -x JAVA_HOME="/usr/lib/jvm/jdk1.8.0_66"
 
 #   CATALINA_OPTS   (Optional) Java runtime options used when the "start",
 #                   "run" or "debug" command is executed.
